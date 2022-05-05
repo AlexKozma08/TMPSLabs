@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Univer\\Patterns\\PatternsLab1\\PatternsLab1.csproj": {}
+    "D:\\Univer\\Patterns\\TMPSLabs\\PatternsLab1\\PatternsLab1.csproj": {}
   },
   "projects": {
-    "D:\\Univer\\Patterns\\PatternsLab1\\PatternsLab1.csproj": {
+    "D:\\Univer\\Patterns\\TMPSLabs\\PatternsLab1\\PatternsLab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Univer\\Patterns\\PatternsLab1\\PatternsLab1.csproj",
+        "projectUniqueName": "D:\\Univer\\Patterns\\TMPSLabs\\PatternsLab1\\PatternsLab1.csproj",
         "projectName": "PatternsLab1",
-        "projectPath": "D:\\Univer\\Patterns\\PatternsLab1\\PatternsLab1.csproj",
+        "projectPath": "D:\\Univer\\Patterns\\TMPSLabs\\PatternsLab1\\PatternsLab1.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\Univer\\Patterns\\PatternsLab1\\obj\\",
+        "outputPath": "D:\\Univer\\Patterns\\TMPSLabs\\PatternsLab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

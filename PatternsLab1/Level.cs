@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PatternsLab1
 {
-     class Level
+     class Level : ILevel
      {
           public string Ambient { get; set; }
           public Locations Location { get; set; }
@@ -26,6 +26,26 @@ namespace PatternsLab1
           public Level Clone()
           {
                return new Level(this);
+          }
+
+          public Locations GetLevelLocation()
+          {
+               return Location;
+          }
+
+          public string GetLevelAmbient()
+          {
+               return Ambient;
+          }
+
+          public string GetLevelLandscape()
+          {
+               return Landscape;
+          }
+
+          public string GetLevelLight()
+          {
+               return Light;
           }
      }
 }

@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace PatternsLab1
 {
-     enum Locations { Tower, Woods, Mountains }
+     public enum Locations { Tower, Woods, Mountains }
 }

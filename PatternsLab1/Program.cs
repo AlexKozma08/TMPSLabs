@@ -13,24 +13,36 @@ namespace PatternsLab1
                     pool = EnemiesPool.getInstance(new ElfEnemyCreator());
                else if (level.Location == Locations.Mountains)
                     pool = EnemiesPool.getInstance(new DwarfEnemyCreator());
-               else //if (level.Location == Locations.Tower)
+               else 
                     pool = EnemiesPool.getInstance(new MageEnemyCreator());
                LookAround(level);
-               IEnemy enemy1 = pool.CheckOut();
+               /*GameSaver gameSaver = new GameSaver(new GameStateRecorder(), new SteamCloudSynchronizer());
+               gameSaver.SaveGame("c:\\saves.xml");*/
+               /*IEnemy enemy1 = pool.CheckOut();
                IEnemy enemy2 = pool.CheckOut();
                IEnemy enemy3 = pool.CheckOut();
                pool.CheckIn(enemy1);
                IEnemy enemy4 = pool.CheckOut();
-               enemy1.Attack();
                enemy2.Attack();
                enemy3.Attack();
-               enemy4.Attack();
+               enemy4.Attack();*/
+               /*UpdateService updateService = new UpdateService();
+               CachedUpdateService cachedUpdateService = new CachedUpdateService(updateService);
+               UpdateManager updateManager = new UpdateManager(cachedUpdateService);
+               updateManager.UpdateGame();
+               updateManager.UpdateGame();*/
+               /*BaseDecorator steam = new SteamDecorator(new Microtransactions());
+               steam.Donate(10);*/
           }
           static Level InitializeLevel()
           {
-               LevelDirector director = new LevelDirector();
                LevelBuilder builder = new LevelBuilder();
-               director.MakeForestLevel(builder);
+               LevelDirector director = new LevelDirector(builder);
+               director.MakeForestLevel();
+               director.ChangeLocation(Locations.Tower);
+               director.MuteAmbient();
+               director.FlatEarth();
+               director.MakeItDark();
                return builder.getLevel();
           }
           static void LookAround(Level level)
