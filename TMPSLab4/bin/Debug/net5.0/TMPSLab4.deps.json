@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "TMPSLab4/1.0.0": {
+        "runtime": {
+          "TMPSLab4.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TMPSLab4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

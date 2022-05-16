@@ -2,8 +2,13 @@
 
 namespace PatternsLab1
 {
-     class EnemyDwarf : IEnemy
+     public class EnemyDwarf : IEnemy
      {
+          public void Accept(IVisitor visitor)
+          {
+               visitor.VisitDwarf(this);
+          }
+
           public void Attack()
           {
                Console.WriteLine("Bonk!");

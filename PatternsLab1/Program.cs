@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 
 namespace PatternsLab1
 {
@@ -9,6 +10,7 @@ namespace PatternsLab1
           {
                Level level = InitializeLevel();
                EnemiesPool pool;
+               FightingLogic fight;
                if (level.Location == Locations.Woods)
                     pool = EnemiesPool.getInstance(new ElfEnemyCreator());
                else if (level.Location == Locations.Mountains)
@@ -33,6 +35,54 @@ namespace PatternsLab1
                updateManager.UpdateGame();*/
                /*BaseDecorator steam = new SteamDecorator(new Microtransactions());
                steam.Donate(10);*/
+
+               //////////////// Template Method //////////////////
+
+               /*if (level.Location == Locations.Woods)
+                    fight = new FightingElf(pool.CheckOut());
+               else if (level.Location == Locations.Mountains)
+                    fight = new FightingDwarf(pool.CheckOut());
+               else
+                    fight = new FightingMage(pool.CheckOut());
+               fight.Fight();*/
+
+               //////////////// Strategy //////////////////
+
+               /*MovingContext context = new MovingContext();
+               context.setStrategy(new MoveOnFeet());
+               context.Move(100, 100);
+               context.setStrategy(new MoveOnMount());
+               context.Move(200, 200);
+               context.setStrategy(new MoveViaTeleport());
+               context.Move(300, 300);*/
+
+               //////////////// State //////////////////
+
+               /*Quest quest = new Quest("Save the world", 1000);
+               quest.CheckQuest();
+               quest.StartQuest();
+               quest.CheckQuest();
+               quest.DeclineQuest();
+               quest.CheckQuest();
+               quest.StartQuest();
+               quest.CompleteQuest();
+               quest.CheckQuest();*/
+
+               //////////////// Chain of Responsability //////////////////
+
+               /*BossfightCheck levelCheck = new LevelCheck();
+               BossfightCheck healthCheck = new HealthCheck();
+               BossfightCheck equipmentCheck = new EquipmentCheck();
+               levelCheck.SetNext(healthCheck).SetNext(equipmentCheck);
+               string result = (string)levelCheck.Handle("broken equipment");
+               Console.WriteLine(result ?? "You are ready to fight the boss!");*/
+
+               //////////////// Visitor //////////////////
+
+               /*List<IEnemy> defeatedEnemies = new List<IEnemy>() {new EnemyMage(), new EnemyDwarf(), new EnemyMage(), new EnemyElf(), new EnemyDwarf() };
+               IVisitor visitor = new LootVisitor();
+               foreach (var enemy in defeatedEnemies)
+                    enemy.Accept(visitor);*/
           }
           static Level InitializeLevel()
           {

@@ -1,0 +1,16 @@
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\TMPSLab4.exe
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\TMPSLab4.deps.json
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\TMPSLab4.runtimeconfig.json
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\TMPSLab4.runtimeconfig.dev.json
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\TMPSLab4.dll
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\ref\TMPSLab4.dll
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\bin\Debug\net5.0\TMPSLab4.pdb
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.csproj.AssemblyReference.cache
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.AssemblyInfoInputs.cache
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.AssemblyInfo.cs
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.csproj.CoreCompileInputs.cache
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.dll
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\ref\TMPSLab4.dll
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.pdb
+D:\Univer\Patterns\TMPSLabs\TMPSLab4\obj\Debug\net5.0\TMPSLab4.genruntimeconfig.cache
