@@ -51,11 +51,6 @@ namespace TMPSLab4
      }
      class Grenade : IThrowable
      {
-          public void Shoot()
-          {
-               // Impossible to shoot from grenade
-          }
-
           public void Throw()
           {
                Console.WriteLine("Throwing grenade");
